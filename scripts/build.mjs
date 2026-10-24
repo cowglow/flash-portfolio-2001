@@ -34,6 +34,10 @@ const AUTHOR = {
   "@type": "Person",
   name: "Philip Saa",
   url: "https://philipsaa.com/",
+  sameAs: [
+    "https://www.linkedin.com/in/philipsaa/",
+    "https://github.com/cowglow",
+  ],
 };
 const ARCHIVE = {
   "@type": "CollectionPage",
