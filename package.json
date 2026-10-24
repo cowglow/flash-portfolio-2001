@@ -1,0 +1,12 @@
+{
+  "name": "flash-portfolio-2001",
+  "private": true,
+  "description": "Flash portfolio archive, 2001–02",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}
