@@ -153,8 +153,9 @@ h1 .r {
   border-color: var(--ink);
 }
 .chip:focus-visible,
-.card button:focus-visible,
-.lb button:focus-visible {
+.card > a:focus-visible,
+.lb button:focus-visible,
+.lb .btn:focus-visible {
   outline: 2px solid var(--red);
   outline-offset: 2px;
 }
@@ -169,7 +170,7 @@ h1 .r {
   gap: 10px;
   min-width: 0;
 }
-.card > button {
+.card > a {
   all: unset;
   cursor: zoom-in;
   display: block;
@@ -336,7 +337,7 @@ footer a {
   width: 100%;
   margin: 0 auto;
 }
-.lb-top h3 {
+.lb-top h2 {
   margin: 0;
   font: 800 18px var(--display);
   font-stretch: 112%;
@@ -356,7 +357,12 @@ footer a {
   border: 1px solid var(--line);
   object-fit: contain;
 }
-.lb button {
+.lb-actions {
+  display: flex;
+  gap: 8px;
+}
+.lb button,
+.lb .btn {
   font: 500 13px var(--body);
   background: var(--surface);
   color: var(--ink);
@@ -364,6 +370,7 @@ footer a {
   padding: 8px 14px;
   border-radius: 2px;
   cursor: pointer;
+  text-decoration: none;
 }
 .lb .count {
   font-family: var(--mono);
@@ -375,4 +382,39 @@ footer a {
   .tl i.on::after {
     transition: none;
   }
+}
+
+/* 404: plain index of every piece */
+.lede a {
+  color: var(--ink);
+}
+.index {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  gap: 8px 22px;
+}
+.index a {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+}
+.index a:hover {
+  color: var(--red);
+}
+.index a:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 2px;
+}
+.index span {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  white-space: nowrap;
 }

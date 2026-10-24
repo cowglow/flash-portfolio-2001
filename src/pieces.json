@@ -1,0 +1,123 @@
+[
+  {
+    "code": "avs-001",
+    "title": "Stir Fryed Remedies / Artistic Vibes",
+    "kind": "Flyer",
+    "slides": 2,
+    "fps": 61,
+    "kb": 48
+  },
+  {
+    "code": "cts-001",
+    "title": "Conversion Tables",
+    "kind": "Flyer",
+    "slides": 2,
+    "fps": 12,
+    "kb": 91
+  },
+  {
+    "code": "s28-001",
+    "title": "Drum&Bass Los Angeles 2001",
+    "kind": "Flyer",
+    "slides": 1,
+    "fps": 12,
+    "kb": 25
+  },
+  {
+    "code": "vfc-001",
+    "title": "phear : modem1",
+    "kind": "Print",
+    "slides": 2,
+    "fps": 12,
+    "kb": 98
+  },
+  {
+    "code": "dbe-001",
+    "title": "dbe by american apperal",
+    "kind": "Identity",
+    "slides": 9,
+    "fps": 61,
+    "kb": 37
+  },
+  {
+    "code": "das-001",
+    "title": "DASH, Direct Access Search Hollywood",
+    "kind": "Identity",
+    "slides": 3,
+    "fps": 12,
+    "kb": 28
+  },
+  {
+    "code": "lau-001",
+    "title": "LA Unified",
+    "kind": "Identity",
+    "slides": 1,
+    "fps": 12,
+    "kb": 28
+  },
+  {
+    "code": "mcl-001",
+    "title": "Cyclone and icon studies",
+    "kind": "Identity",
+    "slides": 5,
+    "fps": 61,
+    "kb": 27
+  },
+  {
+    "code": "s28-002",
+    "title": "Junglist / eagle type",
+    "kind": "Identity",
+    "slides": 2,
+    "fps": 12,
+    "kb": 24
+  },
+  {
+    "code": "mcl-003",
+    "title": "Iridium Satellite Solutions",
+    "kind": "Web",
+    "slides": 2,
+    "fps": 12,
+    "kb": 70
+  },
+  {
+    "code": "mcl-004",
+    "title": "Sundance Online Resource Center 2002",
+    "kind": "Web",
+    "slides": 2,
+    "fps": 12,
+    "kb": 64
+  },
+  {
+    "code": "mdr-001",
+    "title": "MDR Entertainment",
+    "kind": "Web",
+    "slides": 2,
+    "fps": 12,
+    "kb": 49,
+    "hold": true
+  },
+  {
+    "code": "mfr-002",
+    "title": "metaformal recordings site",
+    "kind": "Web",
+    "slides": 3,
+    "fps": 12,
+    "kb": 45
+  },
+  {
+    "code": "mfr-001",
+    "title": "metaformal recordings discs",
+    "kind": "Print",
+    "slides": 1,
+    "fps": 12,
+    "kb": 47
+  },
+  {
+    "code": "mcl-002",
+    "title": "Instant Business Network",
+    "kind": "Print",
+    "slides": 1,
+    "fps": 12,
+    "kb": 76
+  }
+]

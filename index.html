@@ -6,10 +6,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <meta
-      name="description"
-      content="Club flyers, logo studies, packaging and web design from Los Angeles, 2001–02, recovered from Flash 5."
-    />
     <meta name="author" content="Philip Saa" />
     <meta
       name="theme-color"
@@ -22,9 +18,11 @@
       media="(prefers-color-scheme: dark)"
     />
     <title>Flash Portfolio Archive, 2001–02 · Philip Saa</title>
+    <meta
+      name="description"
+      content="Club flyers, logo studies, packaging and web design from Los Angeles, 2001–02, recovered from Flash 5."
+    />
     <link rel="canonical" href="https://work.cowglow.com/" />
-    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Philip Saa" />
     <meta property="og:url" content="https://work.cowglow.com/" />
@@ -61,16 +59,96 @@
           "url": "https://philipsaa.com/"
         },
         "temporalCoverage": "2001/2002",
-        "locationCreated": { "@type": "Place", "name": "Los Angeles" }
+        "locationCreated": { "@type": "Place", "name": "Los Angeles" },
+        "hasPart": [
+          {
+            "@type": "VisualArtwork",
+            "name": "Stir Fryed Remedies / Artistic Vibes",
+            "url": "https://work.cowglow.com/piece/avs/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "Conversion Tables",
+            "url": "https://work.cowglow.com/piece/cts/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "Drum&Bass Los Angeles 2001",
+            "url": "https://work.cowglow.com/piece/s28/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "phear : modem1",
+            "url": "https://work.cowglow.com/piece/vfc/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "dbe by american apperal",
+            "url": "https://work.cowglow.com/piece/dbe/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "DASH, Direct Access Search Hollywood",
+            "url": "https://work.cowglow.com/piece/das/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "LA Unified",
+            "url": "https://work.cowglow.com/piece/lau/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "Cyclone and icon studies",
+            "url": "https://work.cowglow.com/piece/mcl/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "Junglist / eagle type",
+            "url": "https://work.cowglow.com/piece/s28/002/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "Iridium Satellite Solutions",
+            "url": "https://work.cowglow.com/piece/mcl/003/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "Sundance Online Resource Center 2002",
+            "url": "https://work.cowglow.com/piece/mcl/004/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "MDR Entertainment",
+            "url": "https://work.cowglow.com/piece/mdr/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "metaformal recordings site",
+            "url": "https://work.cowglow.com/piece/mfr/002/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "metaformal recordings discs",
+            "url": "https://work.cowglow.com/piece/mfr/001/"
+          },
+          {
+            "@type": "VisualArtwork",
+            "name": "Instant Business Network",
+            "url": "https://work.cowglow.com/piece/mcl/002/"
+          }
+        ]
       }
     </script>
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&display=swap"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
   </head>
   <body>
     <div class="wrap">
@@ -87,7 +165,7 @@
         </div>
         <div class="stats" aria-label="Archive totals">
           <span><b>15</b> portfolio files</span>
-          <span><b id="nSlides">38</b> slides</span>
+          <span><b>38</b> slides</span>
           <span><b>500×375</b> stage, shown at 2×</span>
           <span><b>2001–02</b> Los Angeles</span>
         </div>
@@ -115,18 +193,27 @@
       <main>
         <h2 class="vh">Portfolio, 2001–02</h2>
         <div class="grid" id="grid">
-          <article class="card" data-k="Flyer">
-            <button aria-label="Open Stir Fryed Remedies / Artistic Vibes">
+          <article
+            class="card"
+            data-k="Flyer"
+            data-code="avs-001"
+            data-slides="2"
+            data-fps="61"
+          >
+            <a
+              href="/piece/avs/001/"
+              aria-label="Open Stir Fryed Remedies / Artistic Vibes"
+            >
               <div class="stage">
                 <img
                   alt="Stir Fryed Remedies / Artistic Vibes, slide 1"
-                  src="img/avs-001_1.webp"
+                  src="/img/avs-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i><i></i></div>
             <div class="meta">
               <h3>Stir Fryed Remedies / Artistic Vibes</h3>
@@ -137,18 +224,24 @@
               ><span>61 fps · 0.80 s each</span><span>48 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Flyer">
-            <button aria-label="Open Conversion Tables">
+          <article
+            class="card"
+            data-k="Flyer"
+            data-code="cts-001"
+            data-slides="2"
+            data-fps="12"
+          >
+            <a href="/piece/cts/001/" aria-label="Open Conversion Tables">
               <div class="stage">
                 <img
                   alt="Conversion Tables, slide 1"
-                  src="img/cts-001_1.webp"
+                  src="/img/cts-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i><i></i></div>
             <div class="meta">
               <h3>Conversion Tables</h3>
@@ -159,18 +252,27 @@
               ><span>12 fps · 4.1 s each</span><span>91 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Flyer">
-            <button aria-label="Open Drum&amp;Bass Los Angeles 2001">
+          <article
+            class="card"
+            data-k="Flyer"
+            data-code="s28-001"
+            data-slides="1"
+            data-fps="12"
+          >
+            <a
+              href="/piece/s28/001/"
+              aria-label="Open Drum&amp;Bass Los Angeles 2001"
+            >
               <div class="stage">
                 <img
                   alt="Drum&amp;Bass Los Angeles 2001, slide 1"
-                  src="img/s28-001_1.webp"
+                  src="/img/s28-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i></div>
             <div class="meta">
               <h3>Drum&amp;Bass Los Angeles 2001</h3>
@@ -181,18 +283,24 @@
               ><span>12 fps · 4.1 s each</span><span>25 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Print">
-            <button aria-label="Open phear : modem1">
+          <article
+            class="card"
+            data-k="Print"
+            data-code="vfc-001"
+            data-slides="2"
+            data-fps="12"
+          >
+            <a href="/piece/vfc/001/" aria-label="Open phear : modem1">
               <div class="stage">
                 <img
                   alt="phear : modem1, slide 1"
-                  src="img/vfc-001_1.webp"
+                  src="/img/vfc-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i><i></i></div>
             <div class="meta">
               <h3>phear : modem1</h3>
@@ -203,18 +311,24 @@
               ><span>12 fps · 4.1 s each</span><span>98 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Identity">
-            <button aria-label="Open dbe by american apperal">
+          <article
+            class="card"
+            data-k="Identity"
+            data-code="dbe-001"
+            data-slides="9"
+            data-fps="61"
+          >
+            <a href="/piece/dbe/001/" aria-label="Open dbe by american apperal">
               <div class="stage">
                 <img
                   alt="dbe by american apperal, slide 1"
-                  src="img/dbe-001_1.webp"
+                  src="/img/dbe-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true">
               <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
             </div>
@@ -227,18 +341,27 @@
               ><span>61 fps · 0.80 s each</span><span>37 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Identity">
-            <button aria-label="Open DASH, Direct Access Search Hollywood">
+          <article
+            class="card"
+            data-k="Identity"
+            data-code="das-001"
+            data-slides="3"
+            data-fps="12"
+          >
+            <a
+              href="/piece/das/001/"
+              aria-label="Open DASH, Direct Access Search Hollywood"
+            >
               <div class="stage">
                 <img
                   alt="DASH, Direct Access Search Hollywood, slide 1"
-                  src="img/das-001_1.webp"
+                  src="/img/das-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i><i></i><i></i></div>
             <div class="meta">
               <h3>DASH, Direct Access Search Hollywood</h3>
@@ -249,18 +372,24 @@
               ><span>12 fps · 4.1 s each</span><span>28 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Identity">
-            <button aria-label="Open LA Unified">
+          <article
+            class="card"
+            data-k="Identity"
+            data-code="lau-001"
+            data-slides="1"
+            data-fps="12"
+          >
+            <a href="/piece/lau/001/" aria-label="Open LA Unified">
               <div class="stage">
                 <img
                   alt="LA Unified, slide 1"
-                  src="img/lau-001_1.webp"
+                  src="/img/lau-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i></div>
             <div class="meta">
               <h3>LA Unified</h3>
@@ -271,18 +400,27 @@
               ><span>12 fps · 4.1 s each</span><span>28 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Identity">
-            <button aria-label="Open Cyclone and icon studies">
+          <article
+            class="card"
+            data-k="Identity"
+            data-code="mcl-001"
+            data-slides="5"
+            data-fps="61"
+          >
+            <a
+              href="/piece/mcl/001/"
+              aria-label="Open Cyclone and icon studies"
+            >
               <div class="stage">
                 <img
                   alt="Cyclone and icon studies, slide 1"
-                  src="img/mcl-001_1.webp"
+                  src="/img/mcl-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true">
               <i></i><i></i><i></i><i></i><i></i>
             </div>
@@ -295,18 +433,24 @@
               ><span>61 fps · 0.80 s each</span><span>27 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Identity">
-            <button aria-label="Open Junglist / eagle type">
+          <article
+            class="card"
+            data-k="Identity"
+            data-code="s28-002"
+            data-slides="2"
+            data-fps="12"
+          >
+            <a href="/piece/s28/002/" aria-label="Open Junglist / eagle type">
               <div class="stage">
                 <img
                   alt="Junglist / eagle type, slide 1"
-                  src="img/s28-002_1.webp"
+                  src="/img/s28-002_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i><i></i></div>
             <div class="meta">
               <h3>Junglist / eagle type</h3>
@@ -317,18 +461,27 @@
               ><span>12 fps · 4.1 s each</span><span>24 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Web">
-            <button aria-label="Open Iridium Satellite Solutions">
+          <article
+            class="card"
+            data-k="Web"
+            data-code="mcl-003"
+            data-slides="2"
+            data-fps="12"
+          >
+            <a
+              href="/piece/mcl/003/"
+              aria-label="Open Iridium Satellite Solutions"
+            >
               <div class="stage">
                 <img
                   alt="Iridium Satellite Solutions, slide 1"
-                  src="img/mcl-003_1.webp"
+                  src="/img/mcl-003_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i><i></i></div>
             <div class="meta">
               <h3>Iridium Satellite Solutions</h3>
@@ -339,18 +492,27 @@
               ><span>12 fps · 4.1 s each</span><span>70 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Web">
-            <button aria-label="Open Sundance Online Resource Center 2002">
+          <article
+            class="card"
+            data-k="Web"
+            data-code="mcl-004"
+            data-slides="2"
+            data-fps="12"
+          >
+            <a
+              href="/piece/mcl/004/"
+              aria-label="Open Sundance Online Resource Center 2002"
+            >
               <div class="stage">
                 <img
                   alt="Sundance Online Resource Center 2002, slide 1"
-                  src="img/mcl-004_1.webp"
+                  src="/img/mcl-004_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i><i></i></div>
             <div class="meta">
               <h3>Sundance Online Resource Center 2002</h3>
@@ -361,18 +523,25 @@
               ><span>12 fps · 4.1 s each</span><span>64 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Web">
-            <button aria-label="Open MDR Entertainment">
+          <article
+            class="card"
+            data-k="Web"
+            data-code="mdr-001"
+            data-slides="2"
+            data-fps="12"
+            data-hold
+          >
+            <a href="/piece/mdr/001/" aria-label="Open MDR Entertainment">
               <div class="stage">
                 <img
                   alt="MDR Entertainment, slide 1"
-                  src="img/mdr-001_1.webp"
+                  src="/img/mdr-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i><i></i></div>
             <div class="meta">
               <h3>MDR Entertainment</h3>
@@ -383,18 +552,27 @@
               ><span>12 fps · 4.1 s each</span><span>49 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Web">
-            <button aria-label="Open metaformal recordings site">
+          <article
+            class="card"
+            data-k="Web"
+            data-code="mfr-002"
+            data-slides="3"
+            data-fps="12"
+          >
+            <a
+              href="/piece/mfr/002/"
+              aria-label="Open metaformal recordings site"
+            >
               <div class="stage">
                 <img
                   alt="metaformal recordings site, slide 1"
-                  src="img/mfr-002_1.webp"
+                  src="/img/mfr-002_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i><i></i><i></i></div>
             <div class="meta">
               <h3>metaformal recordings site</h3>
@@ -405,18 +583,27 @@
               ><span>12 fps · 4.1 s each</span><span>45 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Print">
-            <button aria-label="Open metaformal recordings discs">
+          <article
+            class="card"
+            data-k="Print"
+            data-code="mfr-001"
+            data-slides="1"
+            data-fps="12"
+          >
+            <a
+              href="/piece/mfr/001/"
+              aria-label="Open metaformal recordings discs"
+            >
               <div class="stage">
                 <img
                   alt="metaformal recordings discs, slide 1"
-                  src="img/mfr-001_1.webp"
+                  src="/img/mfr-001_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i></div>
             <div class="meta">
               <h3>metaformal recordings discs</h3>
@@ -427,18 +614,27 @@
               ><span>12 fps · 4.1 s each</span><span>47 KB</span>
             </div>
           </article>
-          <article class="card" data-k="Print">
-            <button aria-label="Open Instant Business Network">
+          <article
+            class="card"
+            data-k="Print"
+            data-code="mcl-002"
+            data-slides="1"
+            data-fps="12"
+          >
+            <a
+              href="/piece/mcl/002/"
+              aria-label="Open Instant Business Network"
+            >
               <div class="stage">
                 <img
                   alt="Instant Business Network, slide 1"
-                  src="img/mcl-002_1.webp"
+                  src="/img/mcl-002_1.webp"
                   width="1000"
                   height="750"
                   loading="lazy"
                 />
               </div>
-            </button>
+            </a>
             <div class="tl" aria-hidden="true"><i></i></div>
             <div class="meta">
               <h3>Instant Business Network</h3>
@@ -457,7 +653,8 @@
         timings read from each file's timeline (scene = 49 frames, then
         gotoAndPlay). Two files, avs-001 and dbe-001, were authored at 61 fps,
         so their slides change about every 0.8 s.<br /><br />Design by
-        <a href="https://philipsaa.com/" rel="author">Philip Saa</a>.
+        <a href="https://philipsaa.com/" rel="author">Philip Saa</a>. Source on
+        <a href="https://github.com/cowglow/flash-portfolio-2001">GitHub</a>.
       </footer>
     </div>
 
@@ -470,235 +667,18 @@
       aria-labelledby="lbTitle"
     >
       <div class="lb-top">
-        <h3 id="lbTitle"></h3>
-        <button id="lbClose">Close</button>
+        <h2 id="lbTitle"></h2>
+        <div class="lb-actions">
+          <button id="lbCopy" type="button">Copy link</button
+          ><a class="btn" id="lbClose" href="/">Close</a>
+        </div>
       </div>
       <figure><img id="lbImg" alt="" /></figure>
       <div class="lb-bot">
-        <button id="lbPrev">← Previous</button
-        ><span class="count" id="lbCount"></span
-        ><button id="lbNext">Next →</button>
+        <button id="lbPrev" type="button">← Previous</button>
+        <span class="count" id="lbCount"></span>
+        <button id="lbNext" type="button">Next →</button>
       </div>
     </div>
-
-    <script>
-      const P = [
-        {
-          c: "avs-001",
-          t: "Stir Fryed Remedies / Artistic Vibes",
-          k: "Flyer",
-          n: 2,
-          f: 61,
-          kb: 48,
-        },
-        {
-          c: "cts-001",
-          t: "Conversion Tables",
-          k: "Flyer",
-          n: 2,
-          f: 12,
-          kb: 91,
-        },
-        {
-          c: "s28-001",
-          t: "Drum&Bass Los Angeles 2001",
-          k: "Flyer",
-          n: 1,
-          f: 12,
-          kb: 25,
-        },
-        { c: "vfc-001", t: "phear : modem1", k: "Print", n: 2, f: 12, kb: 98 },
-        {
-          c: "dbe-001",
-          t: "dbe by american apperal",
-          k: "Identity",
-          n: 9,
-          f: 61,
-          kb: 37,
-        },
-        {
-          c: "das-001",
-          t: "DASH, Direct Access Search Hollywood",
-          k: "Identity",
-          n: 3,
-          f: 12,
-          kb: 28,
-        },
-        { c: "lau-001", t: "LA Unified", k: "Identity", n: 1, f: 12, kb: 28 },
-        {
-          c: "mcl-001",
-          t: "Cyclone and icon studies",
-          k: "Identity",
-          n: 5,
-          f: 61,
-          kb: 27,
-        },
-        {
-          c: "s28-002",
-          t: "Junglist / eagle type",
-          k: "Identity",
-          n: 2,
-          f: 12,
-          kb: 24,
-        },
-        {
-          c: "mcl-003",
-          t: "Iridium Satellite Solutions",
-          k: "Web",
-          n: 2,
-          f: 12,
-          kb: 70,
-        },
-        {
-          c: "mcl-004",
-          t: "Sundance Online Resource Center 2002",
-          k: "Web",
-          n: 2,
-          f: 12,
-          kb: 64,
-        },
-        {
-          c: "mdr-001",
-          t: "MDR Entertainment",
-          k: "Web",
-          n: 2,
-          f: 12,
-          kb: 49,
-          hold: true,
-        },
-        {
-          c: "mfr-002",
-          t: "metaformal recordings site",
-          k: "Web",
-          n: 3,
-          f: 12,
-          kb: 45,
-        },
-        {
-          c: "mfr-001",
-          t: "metaformal recordings discs",
-          k: "Print",
-          n: 1,
-          f: 12,
-          kb: 47,
-        },
-        {
-          c: "mcl-002",
-          t: "Instant Business Network",
-          k: "Print",
-          n: 1,
-          f: 12,
-          kb: 76,
-        },
-      ];
-      const SCENE = 49,
-        grid = document.getElementById("grid");
-      const src = (p, i) => `img/${p.c}_${i + 1}.webp`;
-      const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-      // Cards are in the HTML (for crawlers and link previews); P lines up with them by index.
-      const cards = grid.querySelectorAll(".card");
-      P.forEach((p, idx) => {
-        const el = cards[idx];
-        el.querySelector("button").onclick = () => openLb(idx, p.cur || 0);
-        for (let i = 1; i < p.n; i++) {
-          const im = new Image();
-          im.src = src(p, i);
-        } // preload
-        p.el = el;
-        p.img = el.querySelector(".stage img");
-        p.ticks = [...el.querySelectorAll(".tl i")];
-        p.cur = -1;
-      });
-      const t0 = performance.now();
-      function frame(now) {
-        for (const p of P) {
-          const dur = (SCENE / p.f) * 1000,
-            el = Math.max(0, now - t0) / dur;
-          let s = Math.floor(el),
-            prog = el - s;
-          if (p.hold)
-            ((s = Math.min(s, p.n - 1)),
-              (prog = s === p.n - 1 && el >= p.n ? 1 : prog));
-          else s %= p.n;
-          if (p.n === 1) prog = ((now - t0) % dur) / dur;
-          if (reduce) {
-            s = 0;
-            prog = 0;
-          }
-          if (s !== p.cur) {
-            p.cur = s;
-            p.img.src = src(p, s);
-            p.img.alt = `${p.t}, slide ${s + 1}`;
-            p.ticks.forEach((t, i) => t.classList.toggle("on", i === s));
-          }
-          p.ticks[s].style.setProperty("--p", (prog * 100).toFixed(1) + "%");
-        }
-        requestAnimationFrame(frame);
-      }
-      requestAnimationFrame(frame);
-
-      document.querySelectorAll(".chip").forEach(
-        (b) =>
-          (b.onclick = () => {
-            document
-              .querySelectorAll(".chip")
-              .forEach((x) => x.setAttribute("aria-pressed", x === b));
-            P.forEach(
-              (p) =>
-                (p.el.hidden = !(b.dataset.k === "all" || p.k === b.dataset.k)),
-            );
-          }),
-      );
-
-      const lb = document.getElementById("lb"),
-        lbImg = document.getElementById("lbImg"),
-        lbT = document.getElementById("lbTitle"),
-        lbC = document.getElementById("lbCount");
-      let cur = { p: 0, s: 0 },
-        opener = null;
-      function show() {
-        const p = P[cur.p];
-        lbImg.src = src(p, cur.s);
-        lbImg.alt = `${p.t}, slide ${cur.s + 1}`;
-        lbT.textContent = p.t;
-        lbC.textContent = `${p.c} · ${cur.s + 1} / ${p.n}`;
-      }
-      function openLb(pi, s) {
-        opener = document.activeElement;
-        cur = { p: pi, s };
-        show();
-        lb.hidden = false;
-        document.getElementById("lbNext").focus();
-      }
-      function closeLb() {
-        lb.hidden = true;
-        opener && opener.focus();
-      }
-      function step(d) {
-        const vis = P.map((p, i) => i).filter((i) => !P[i].el.hidden);
-        let { p, s } = cur;
-        s += d;
-        if (s >= P[p].n || s < 0) {
-          let j = vis.indexOf(p);
-          j = (j + d + vis.length) % vis.length;
-          p = vis[j];
-          s = d > 0 ? 0 : P[p].n - 1;
-        }
-        cur = { p, s };
-        show();
-      }
-      document.getElementById("lbClose").onclick = closeLb;
-      document.getElementById("lbNext").onclick = () => step(1);
-      document.getElementById("lbPrev").onclick = () => step(-1);
-      lb.addEventListener("click", (e) => {
-        if (e.target === lb || e.target.tagName === "FIGURE") closeLb();
-      });
-      addEventListener("keydown", (e) => {
-        if (lb.hidden) return;
-        if (e.key === "Escape") closeLb();
-        if (e.key === "ArrowRight") step(1);
-        if (e.key === "ArrowLeft") step(-1);
-      });
-    </script>
   </body>
 </html>
